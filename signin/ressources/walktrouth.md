@@ -9,5 +9,5 @@ First name: admin
 Surname : 3bf1114a986ba87ed28fc1b5884fc2f8
 ```
 ---
-If we assume this is md5, it will be `shadow`. If we try to login at `http://192.168.56.102/?page=signin`
+If we assume this is md5, it will be `shadow`. If we try to login at `/?page=signin`
 with the username `admin` and the password `shadow`, we got the flag.

